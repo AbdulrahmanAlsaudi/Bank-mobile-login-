@@ -1,0 +1,154 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            /*background-color: #f7f9fc;*/
+            /*display: flex;*/
+            background-color: #ffffff;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+        }
+/*header {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width:700px; 
+    height:100%;
+}*/
+header img{
+    width:100%; 
+    
+}
+        /* Container for the login form */
+        .login-container {
+       /* margin-top: 210px;*/
+       margin-top: 1px;
+            background-color:#fff;
+            padding: 9rem;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-container h2 {
+            color: #bab1ce;
+            margin-bottom: 20px;
+        }
+
+        /* Form Styles */
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+         .login-form h3{
+         font-size: 12px;
+            text-align: right;
+            color:#74659a;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            font-size: 16px;
+            background-color:#bab1ce;
+            text-align: right;
+            
+            
+        }
+
+        .login-form input[type="text"]:focus,
+        .login-form input[type="password"]:focus {
+            outline: none;
+            border-color: #0077cc;
+        }
+
+        /* Login Button */
+        .login-form button {
+            padding: 5px;
+            background-color: #fda506;
+            color:#74659a;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button {
+  width: 180px;
+  height: 40px;
+  position: relative; 
+  margin-left: 160px;
+}
+        .login-form button:hover {
+            background-color: #005fa3;
+        }
+
+        /* Checkbox and Links */
+        .login-form .remember-me {
+            
+            align-items: right;
+            margin-top: 230px;
+            color: #74659a;
+            position: absolute;
+            margin-left:190px;
+            text-align: left;
+            
+        }
+
+        .login-form .remember-me input {
+            margin-left: 120px;
+            margin-top: 5px;
+            position: absolute;
+        }
+
+        .login-form a {
+            color: #74659a;
+            text-decoration: none;
+            margin-top: 230px;
+            margin-left: 50px;
+            font-size: 16px;
+            text-align: left;
+            position: absolute;
+            
+            
+        }
+
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Links */
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile-First Responsive Design */
+        @media (max-width: 768px) {
+            .login-container {
+                width: 100%;
+                padding: 1.5rem;
+            }
+        }

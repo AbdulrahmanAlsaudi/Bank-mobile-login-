@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bank Login Page">
+    <title>Kuraimi Bank</title>
+    <link rel="stylesheet" href="styles2.css">
+     
+</head>
+<body>
+<header>
+       <!-- <h1>بنك الكريمي</h1>-->
+       <img src="lmg/header_body.jpg" alt="menu item thumbnail">
+    </header>
+   <!-- <section id="mains">
+        <div class="page_main">
+            <img src="lmg/body_img.jpg" alt="menu item thumbnail"
+            </div>
+        </section>-->
+    <!-- Login Container -->
+    <div class="login-container">
+        
+
+        <!-- Login Form -->
+        <form class="login-form" action="/login" method="POST">
+           
+             <h3> رقم المميز</h3> <input type="text" name="username" placeholder="ادخل رقم المميز" required>
+            <h3> كلمة المرور</h3> <input type="password" name="password" placeholder="ادخل كلمه المرور" required> 
+            <img src="lmg/vision-svgrepo-com.svg" alt="menu item thumbnail" style="width:25px; height:25px;margin-top: 125px;position: absolute;margin-left: 35px;">
+            
+            
+            <!-- Login Button -->
+            <button type="submit">دخول</button>
+            
+      <img src="lmg/fingerprint2.svg" alt="image" style="color:#fda506;width:60px; height:55px;margin-top: 175px; padding: 0;position: absolute;margin-left: 70px;">
+             <!-- Remember Me Option -->
+            <div class="remember-me">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">الدخول بدون انترنت</label>
+            </div>
+            
+
+            <!-- Forgot Password Link -->
+            <a href="/forgot-password" >نسيت كلمة المرور</a> 
+            <img src="lmg/lock-svgrepo-com.svg" alt="menu item thumbnail" style="width:25px; height:25px;margin-top: 225px;position: absolute;margin-left: 150px;"> 
+        </form>
+
+
+        <!-- Footer Links for Policy and Contact -->
+        <div class="footer">
+         <!--   <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
+            <a href="/support">Support</a>-->
+        </div>
+    </div>
+
+</body>
+</html>
